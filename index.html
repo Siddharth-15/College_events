@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Events Website</title>
+  
+    <!--  Recommended Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+    <!-- Optional: your custom styles -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  
+<body>
+
+  <!-- Header with logo and name -->
+  <header>
+    <div class="top-bar">
+      <!-- Left Logo -->
+      <img src="assets/JBREC LOGO.jpg" alt="College Logo Left" class="logo" />
+
+      <!-- College Info -->
+      <div class="college-info">
+        <h1>Joginpally B.R. Engineering College</h1>
+        <p>Accredited by NAAC with A+, Recognized under 2(f) of UGC Act.1956, ISO 9001:2015 Certified,</p>
+        <p>Yenkapally (V), Moinabad (M), P.O. Himayat Nagar, R.R. District, Hyderabad – 500 075.</p>
+      </div>
+
+      <!-- Right Logo -->
+      <img src="assets/JBR LOGO.jpg" alt="College Logo Right" class="logo" />
+    </div>
+
+    <!-- Navbar -->
+    <div class="navbar">
+      <a href="index.html">Home</a>
+      <a href="index.html">About Us</a>
+
+      <div class="dropdown">
+        <a href="#">SAC ▾</a>
+        <div class="dropdown-content">
+          <a href="sac.html">About SAC</a>
+          <a href="team.html">SAC Team</a>
+        </div>
+      </div>
+
+      <a href="Gallery">Gallery</a>
+      <li>
+        <div class="dropdown">
+          <a href="#">Events ▾</a>
+          <div class="dropdown-content">
+            <a href="ongoing-events.html">Ongoing</a>
+            <a href="upcoming-events.html">Upcoming</a>
+            <a href="completed-events.html">Completed</a>
+          </div>
+        </div>
+      </li>
+      
+
+      <a href="contact.html">Contact Us</a>
+    </div>
+  </header>
+
+
+  <!-- Background Image Section -->
+  <section class="hero-section">
+    <div class="overlay">
+      <h2>Welcome to the College Events Portal</h2>
+    </div>
+  </section>
+
+  <!-- Scrolling Text -->
+  <div class="marquee-wrapper">
+    <marquee behavior="scroll" direction="left" scrollamount="6" onmouseover="this.stop();" onmouseout="this.start();">
+      <a href="https://forms.gle/5EhE7gFtQShdbakv5" target="_blank">
+        ✨ Anti-Drug Awareness Programme is live | Register Now ✨
+      </a>
+    </marquee>
+  </div>
+  <!-- About Us Section -->
+<section id="about" class="about-section">
+  <div class="about-container">
+    <!-- Left: Text -->
+    <div class="about-text">
+      <h2 class="fancy-underline">
+        <span class="underline-animate">About Us</span>
+      </h2>
+      
+
+      <p>
+        Joginpally B.R. Engineering College (JBREC) is committed to academic excellence and holistic development of students.
+        Our college hosts numerous technical, cultural, and sports events all year round, encouraging creativity and innovation.
+      </p>
+      <p>
+        The Events Portal aims to be a one-stop platform for all college happenings – past, present, and future – and provides easy registration access.
+      </p>
+    </div>
+
+    <!-- Right: Image -->
+    <div class="about-image">
+      <img src="assets/jbrec 6.jpg" alt="About JBREC" />
+    </div>
+  </div>
+</section>
+
+<!-- Quick Links Section -->
+<section class="quick-links-section">
+  <h2 class="fancy-underline">
+    <span class="underline-animate">Quick Links</span>
+  </h2>
+
+  <div class="quick-links">
+    <a href="ongoing-events.html" class="quick-link-btn">Ongoing Events</a>
+    <a href="events.html" class="quick-link-btn">Upcoming Events</a>
+    <a href="#contact" class="quick-link-btn">Previous Events</a>
+    <a href="clubs.html" class="quick-link-btn">College Clubs</a>
+    <a href="#sac" class="quick-link-btn">Student Activty Centre</a>
+    <a href="#gallery" class="quick-link-btn">Gallery</a>
+  </div>
+</section>
+
+<section class="event-cards-section py-10 bg-white text-center">
+  <h2 class="text-3xl font-bold mb-6">Events</h2>
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-6">
+
+    <!-- Ongoing Event Card -->
+    <a href="ongoing-events.html" class="relative block overflow-hidden rounded-xl shadow-lg transform hover:scale-105 transition duration-300">
+      <span class="absolute top-3 right-3 bg-green-600 text-white text-xs font-bold px-3 py-1 rounded-full z-10">Ongoing</span>
+      <img src="images/ANTI.png" alt="Ongoing Event" class="w-full h-48 object-cover">
+      <div class="p-4 bg-white">
+        <h3 class="text-lg font-bold mb-1">Anti-Drug Awareness Programme</h3>
+        <p class="text-sm text-gray-600">TGANB is launching a structural initiative to engage students in creating massive awareness among the students of Telangana in view of forthcoming International Day Against Drug Abuse & Illicit Trafficking on 26th of June. 2025.</p>
+      </div>
+    </a>
+
+    <!-- Upcoming Event Card -->
+    <a href="upcoming-events.html" class="relative block overflow-hidden rounded-xl shadow-lg transform hover:scale-105 transition duration-300">
+      <span class="absolute top-3 right-3 bg-yellow-500 text-white text-xs font-bold px-3 py-1 rounded-full z-10">Upcoming</span>
+      <img src="assets/Aakriti logo bg (1).png" alt="Upcoming Event" class="w-full h-48 object-cover">
+      <div class="p-4 bg-white">
+        <h3 class="text-lg font-bold mb-1">TechXplore & Aakriti 2K25</h3>
+        <p class="text-sm text-gray-600">Get ready for an unforgettable event of tech, dance, music, and fun.</p>
+      </div>
+    </a>
+
+    <!-- Completed Event Card -->
+    <a href="gallery/previous-event.html" class="relative block overflow-hidden rounded-xl shadow-lg transform hover:scale-105 transition duration-300">
+      <span class="absolute top-3 right-3 bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full z-10">Completed</span>
+      <img src="images/jbrec 6.jpg" alt="Completed Event" class="w-full h-48 object-cover">
+      <div class="p-4 bg-white">
+        <h3 class="text-lg font-bold mb-1">Sports Day 2024</h3>
+        <p class="text-sm text-gray-600">A recap of the thrilling games and athletic glory of Sports Day.</p>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+<!-- Gallery Section -->
+<section id="gallery" class="gallery-section py-10 bg-gray-50">
+  <h2 class="fancy-underline">
+    <span class="underline-animate">Event Gallery</span>
+  </h2>
+
+  <div class="relative">
+    <!-- Left Scroll Button -->
+    <button id="scrollLeft" class="absolute left-4 top-1/2 transform -translate-y-1/2 z-10 p-2 bg-white rounded-full shadow hover:bg-gray-100">
+      <i class="fas fa-chevron-left"></i>
+    </button>
+
+    <!-- Scrollable Image Container -->
+    <div id="galleryScroll" class="flex overflow-x-auto space-x-4 px-10 scroll-smooth">
+      <!-- Image Items -->
+      <img src="assets/jbrec 6.jpg" alt="Event 1" class="h-64 rounded-lg shadow-md hover:scale-105 transition duration-300 cursor-pointer">
+      <img src="assets/jbrec 6.jpg" alt="Event 2" class="h-64 rounded-lg shadow-md hover:scale-105 transition duration-300 cursor-pointer">
+      <img src="assets/jbrec 6.jpg" alt="Event 3" class="h-64 rounded-lg shadow-md hover:scale-105 transition duration-300 cursor-pointer">
+      <img src="assets/jbrec 6.jpg" alt="Event 4" class="h-64 rounded-lg shadow-md hover:scale-105 transition duration-300 cursor-pointer">
+      <img src="assets/jbrec 6.jpg" alt="Event 5" class="h-64 rounded-lg shadow-md hover:scale-105 transition duration-300 cursor-pointer">
+      <img src="assets/jbrec 6.jpg" alt="Event 6" class="h-64 rounded-lg shadow-md hover:scale-105 transition duration-300 cursor-pointer">
+      <!-- Add more as needed -->
+    </div>
+    <!-- Lightbox Modal -->
+<div id="lightboxModal" class="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50 hidden">
+  <span id="closeModal" class="absolute top-6 right-6 text-white text-3xl cursor-pointer">&times;</span>
+  <img id="lightboxImg" src="" alt="Full View" class="max-h-[90vh] max-w-[90vw] rounded-lg shadow-lg">
+</div>
+
+
+    <!-- Right Scroll Button -->
+    <button id="scrollRight" class="absolute right-4 top-1/2 transform -translate-y-1/2 z-10 p-2 bg-white rounded-full shadow hover:bg-gray-100">
+      <i class="fas fa-chevron-right"></i>
+    </button>
+  </div>
+</section>
+
+<!-- Scroll Button Script -->
+<script>
+  const galleryImages = document.querySelectorAll('#galleryScroll img');
+  const lightboxModal = document.getElementById('lightboxModal');
+  const lightboxImg = document.getElementById('lightboxImg');
+  const closeModal = document.getElementById('closeModal');
+
+  galleryImages.forEach(img => {
+    img.addEventListener('click', () => {
+      lightboxImg.src = img.src;
+      lightboxModal.classList.remove('hidden');
+    });
+  });
+
+  closeModal.addEventListener('click', () => {
+    lightboxModal.classList.add('hidden');
+  });
+
+  // Optional: close modal when clicking outside image
+  lightboxModal.addEventListener('click', (e) => {
+    if (e.target === lightboxModal) {
+      lightboxModal.classList.add('hidden');
+    }
+  });
+</script>
+<script>
+  // Scroll Left/Right for Gallery
+  document.getElementById('scrollLeft').addEventListener('click', () => {
+    document.getElementById('galleryScroll').scrollBy({ left: -300, behavior: 'smooth' });
+  });
+
+  document.getElementById('scrollRight').addEventListener('click', () => {
+    document.getElementById('galleryScroll').scrollBy({ left: 300, behavior: 'smooth' });
+  });
+</script>
+
+
+<footer class="footer" id="footer">
+  <div class="footer-container">
+    <!-- Logo and About -->
+    <div class="footer-about">
+      <div class="footer-logo-text">
+        <img src="assets/JBREC LOGO.jpg" alt="College Logo" class="footer-logo">
+        <div>
+          <h3>Joginpally B.R. Engineering College</h3>
+          <p>Empowering students through academic excellence and holistic development.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><div class="dropdown">
+          <a href="#">Events ▾</a>
+          <div class="dropdown-content">
+            <a href="ongoing-events.html">Ongoing</a>
+            <a href="upcoming-events.html">Upcoming</a>
+            <a href="completed-events.html">Completed</a>
+          </div></li>
+        <li><a href="sac.html">SAC</a></li>
+        <li><a href="#clubs">Clubs</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Social Media -->
+<div class="footer-social">
+  <h4>Connect With Us</h4>
+  <div class="space-y-3">
+    <a href="https://www.instagram.com/jbrecofficialsm/" target="_blank" class="flex items-center space-x-2 hover:text-[#E1306C] transition">
+      <img src="assets/insta-logo.png" alt="Instagram" class="w-6 h-6" />
+      <span>Instagram</span>
+    </a>
+    <a href="https://www.facebook.com/" target="_blank" class="flex items-center space-x-2 hover:text-[#3b5998] transition">
+      <img src="assets/Facebook_Logo.png" alt="Facebook" class="w-6 h-6" />
+      <span>Facebook</span>
+    </a>
+    <a href="https://twitter.com/" target="_blank" class="flex items-center space-x-2 hover:text-[#1DA1F2] transition">
+      <img src="assets/x-logo.jpg" alt="Twitter" class="w-6 h-6" />
+      <span>Twitter</span>
+    </a>
+  </div>
+</div>
+
+
+
+  <a href="#top" class="scroll-to-top" title="Back to Top">
+  <i class="fas fa-arrow-up"></i>
+</a>
+
+
+  <!-- Copyright -->
+  <div class="footer-bottom">
+    <p>&copy;  built by Vijay Siddharth Guptha | All Rights Reserved.</p>
+  </div>
+</footer>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const underlineElements = document.querySelectorAll(".underline-animate");
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.remove("replay");
+          void entry.target.offsetWidth; // Trigger reflow
+          entry.target.classList.add("replay");
+        }
+      });
+    });
+
+    underlineElements.forEach(el => observer.observe(el));
+  });
+</script>
+
+</body>
+</html>
+
